@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>ViGames</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <img src=img/logo.png height="50" width="200">
+            <nav>
+                <a href="#" class="activo">Inicio</a>
+                <a href="#">Cintas</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="pelicula-principal">
+            <div class="contenedor">
+                <h3 class="titulo">The Last of Us</h3>
+                <p class="descripcion">20 años después de que una pandemia acabara con la civilización, los humanos infectados vagan sin control y los supervivientes se matan por los escasos recursos, como la comida y las armas. Joel, un violento superviviente, es contratado para llevarse a escondidas a una chica de catorce años, Ellie, de una zona militar en cuarentena, pero lo que comienza siendo una simple tarea no tarda en transformarse en un brutal viaje por los EE. UU.</p>
+                <button role="button" class="boton"><i class="fa-solid fa-play"></i>Reproducir</button>
+                <button role="button" class="boton"><i class="fa-solid fa-circle-info"></i>Más información</button>
+            </div>
+        </div>
+
+        <div class="peliculas-recomendadas contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Películas recomendadas</h3>
+                <div class="indicadores">
+                </div>
+            </div>
+
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fa-solid fa-angle-left"></i></button>
+
+                <div class="contenedor-carousel">
+                    <div class="carousel">
+                        <div class="pelicula">
+                            <a href="#"><img src="img/1.1.jpg" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="img/2.2.jpg" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="img/3.3.jpg" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="img/4.4.jpg" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="img/5.5.jpg" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="img/6.6.jpg" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="img/7.7.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/2ec513d710.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
